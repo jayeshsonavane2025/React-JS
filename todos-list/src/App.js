@@ -6,9 +6,10 @@ import Header from './MyComponents/Header';
 import Footer from './MyComponents/Footer';
 import Todos from './MyComponents/Todos';
 function App() {
+  let myVariable = 345;
   return (
     <>
-      <Header /> 
+      <Header title="My Todos List" searchBar={true} /> 
       <Todos />
       <Footer/> 
       </>
