@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 
 import './App.css';
-import header from './MyComponents/header';
+import Header from './MyComponents/Header';
+ 
+import Footer from './MyComponents/Footer';
+import Todos from './MyComponents/Todos';
 function App() {
   return (
     <>
-      <header /> 
+      <Header /> 
       <Todos />
       <Footer/> 
       </>
